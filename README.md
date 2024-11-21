@@ -19,10 +19,10 @@ Welcome to the Laravel Chat Application! This application allows you to create r
 
 This repository contains essential server configuration settings for deploying and managing Laravel applications. It includes configurations for:
 
-Nginx setup
-Pusher integration
-Supervisor process management
-And other key server settings
+- Nginx setup
+- Pusher integration
+- Supervisor process management
+- And other key server settings
 These configurations aim to streamline the deployment and management of Laravel applications, ensuring a smooth and efficient production environment.
 
 The repository is designed for a simple chat app, Laravel Reverb, and serves as a guide for developers who want to set up this application locally. Often, when deploying Laravel Reverb to a production server, developers encounter issues. This repository helps solve those problems by providing detailed instructions and configurations for a seamless server setup, ensuring a smooth deployment process.
@@ -124,26 +124,26 @@ and Add your Domain
 and remove my certbot configuration addrees and genrate new ssl
 
 ## Supervioser Setting
-install supervioser
-past reverb.conf file in to /etc/supervioser/conf.d/
-then read or update supervioser 
-then start supervioser
+- install supervioser
+- past reverb.conf file in to /etc/supervioser/conf.d/
+- then read or update supervioser 
+- then start supervioser
 
 ## Pusher
 Create and Account on https://pusher.com/
 
 Then Create an app choose laravel or vue and Enter then go ```APP KEY  Copy
-app_id =   , 
-key =      ,
-secret =   ,
-cluster =  ,
+- app_id =   , 
+- key =      ,
+- secret =   ,
+- cluster =  ,
 
 Then paste the keys in .env file 
 
 ## Add you Cluster Pusher Region in you config/Broadcasting.php file
 
-for example go pusher area      'host' => env('PUSHER_HOST') ?: 'api-'.env('PUSHER_APP_CLUSTER', 'ap2').'.pusher.com',
-only change ap2 to your Pusher Region
+- for example go pusher area      'host' => env('PUSHER_HOST') ?: 'api-'.env('PUSHER_APP_CLUSTER', 'ap2').'.pusher.com',
+- only change ap2 to your Pusher Region
 
 
 ## License
