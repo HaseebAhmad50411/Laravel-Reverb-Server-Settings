@@ -119,10 +119,10 @@ then start supervioser
 Create and Account on https://pusher.com/
 
 Then Create an app choose laravel or vue and Enter then go ```APP KEY  Copy
-app_id = 
-key = 
-secret = 
-cluster =  
+app_id =   , 
+key =      ,
+secret =   ,
+cluster =  ,
 
 Then paste the keys in .env file 
 
