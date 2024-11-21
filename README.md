@@ -15,7 +15,21 @@
 
 Welcome to the Laravel Chat Application! This application allows you to create real-time chat conversations between users using the Laravel framework. It includes features such as user authentication, chat rooms, and real-time messaging.
 
-![Chat Application Image](images.png)
+## Laravel Reverb Server Settings
+
+This repository contains essential server configuration settings for deploying and managing Laravel applications. It includes configurations for:
+
+Nginx setup
+Pusher integration
+Supervisor process management
+And other key server settings
+These configurations aim to streamline the deployment and management of Laravel applications, ensuring a smooth and efficient production environment.
+
+The repository is designed for a simple chat app, Laravel Reverb, and serves as a guide for developers who want to set up this application locally. Often, when deploying Laravel Reverb to a production server, developers encounter issues. This repository helps solve those problems by providing detailed instructions and configurations for a seamless server setup, ensuring a smooth deployment process.
+
+
+
+
 
 ## Features
 
