@@ -104,6 +104,33 @@ php artisan serve
 
 The application will run on `http://127.0.0.1:8000`.
 
+## Nginx File
+Paste Socket.conf file to nginx 
+and Add your Domain 
+and remove my certbot configuration addrees and genrate new ssl
+
+## Supervioser Setting
+install supervioser
+past reverb.conf file in to /etc/supervioser/conf.d/
+then read or update supervioser 
+then start supervioser
+
+## Pusher
+Create and Account on https://pusher.com/
+
+Then Create an app choose laravel or vue and Enter then go ```APP KEY  Copy
+app_id = 
+key = 
+secret = 
+cluster =  
+
+Then paste the keys in .env file 
+
+## Add you Cluster Pusher Region in you config/Broadcasting.php file
+
+for example go pusher area      'host' => env('PUSHER_HOST') ?: 'api-'.env('PUSHER_APP_CLUSTER', 'ap2').'.pusher.com',
+only change ap2 to your Pusher Region
+
 
 ## License
 
